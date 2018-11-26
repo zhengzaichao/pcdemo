@@ -1,0 +1,336 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="style/global.css" />
+<link rel="stylesheet" type="text/css" href="style/style.css" />
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/style.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+<title>装修创意</title>
+</head>
+<body>
+<!--没有登录 顶部 开始-->
+<div class="m_top" id="top">
+	<div class="m_center">
+    	<div class="m_left">您好，欢迎来到查小乖网站</div>
+        <div class="m_right m_left">
+        	<!--没有登录的时候，显示注册和登录-->
+        	<div class="m_login m_left" style="display:block;">
+            	<a href="register.html">注册</a>
+                <a href="login.html">登录</a>
+            </div>
+            <!--登录后显示下面的这个div-->
+            <div class="m_user m_left" style="display:none;">
+            	<a href="user.html" class="m_1 m_left">用户中心</a>
+                <span class="m_2 m_left">积分余额：200</span>
+                <a href="javascript:void(0)" class="m_3 m_left">退出</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--没有登录 顶部 结束-->
+<!--搜索和logo开始 1-->
+<div class="m_header m_center" id="header">
+	<a class="m_left m_logo" href="index.html"><img src="images/logo.png" /></a>
+    <div class="m_right m_tel">联系电话：<span>010-51260690</span></div>
+    <form class="m_search">
+    	<div class="m_select">装修公司</div>
+        <ul class="m_option">
+        	<li>装修公司1</li>
+            <li>装修公司2</li>
+        </ul>
+        <input class="m_1" type="text" placeholder="挑选您心仪的装修公司" />
+        <input class="m_2" type="submit" value="搜索" />
+    </form>
+</div>
+<!--搜索和logo结束-->
+<!--顶部导航开始 导航样式 1-->
+<div class="nav" id="nav">
+	<div class="m_center">
+    	<ul>
+        	<li><a href="index.html">首页<em></em></a></li>
+            <li class="m_hot"><a href="sjbj.html">设计与报价<em></em></a></li>
+            <li><a href="xgt.html">效果图<em></em></a></li>
+            <li><a href="zxgs.html">装修公司<em></em></a></li>
+            <li><a href="zyls.html" target="_blank">审理装修合同<em></em></a></li>
+            <li class="m_hot"><a href="zylsgd.html" target="_blank">装修专业律师<em></em></a></li>
+            <li class="m_on"><a href="shop.html">软装商城<em></em></a></li>
+        </ul>
+    </div>
+</div>
+<!--顶部导航结束-->
+<!--banner开始-->
+<div class="m_banner_1" id="banneradad">
+	<div class="bd">
+    	<ul>
+            <li style="background-image:url(images/m_banner_3.jpg)"></li>
+            <li style="background-image:url(images/m_banner_4.jpg)"></li>
+        </ul>
+    </div>
+    <span class="m_pro"></span>
+    <span class="m_next"></span>
+    <script type="text/javascript" src="js/jquery.SuperSlide.js"></script>
+    <script type="text/javascript">
+        jQuery("#banneradad").slide({
+			effect : "left", 
+            titCell:".hd ul",//导航元素
+            mainCell:".bd ul",//内容元素的父层对象
+            delayTime : 300, //效果持续时间
+            trigger: "mouseover",//触发方式 || mouseover：鼠标移过触发；|| click：鼠标点击触发；
+            titOnClassName:"on",
+			vis:1,
+            autoPage:true,
+            autoPlay:true,
+			prevCell:".m_pro",//前一个按钮元素。
+			nextCell:".m_next"//后一个按钮元素。
+        });
+    </script>
+</div>
+<!--banner结束-->
+<!--热门分类开始-->
+<div class="m_center m_title">
+	<div class="m_left">
+    	<span class="ch">热门分类</span>
+        <span class="en">Popular classification</span>
+    </div>
+</div>
+<div class="m_rmfl m_center" id="m_rmfl">
+	<div class="tabs">
+    	<span class="curr">布艺类</span>
+        <span>布艺类</span>
+        <span>布艺类</span>
+        <span>布艺类</span>
+        <span>布艺类</span>
+        <span>布艺类</span>
+        <span>布艺类</span>
+    </div>
+    <div class="tab_body tab_body_show">
+    	<a href="shop.html" class="a_1 curr">窗帘1</a>
+        <a href="shop.html">地毯</a>
+        <a href="shop.html">枕套</a>
+        <a href="shop.html">床罩</a>
+        <a href="shop.html">靠垫</a>
+        <div class="clear"></div>
+    </div>
+    <div class="tab_body">
+    	<a href="shop.html" class="a_1">窗帘2</a>
+        <a href="shop.html">地毯</a>
+        <a href="shop.html">枕套</a>
+        <a href="shop.html">床罩</a>
+        <a href="shop.html">靠垫</a>
+        <div class="clear"></div>
+    </div>
+    <div class="tab_body">
+    	<a href="shop.html" class="a_1">窗帘3</a>
+        <a href="shop.html">地毯</a>
+        <a href="shop.html">枕套</a>
+        <a href="shop.html">床罩</a>
+        <a href="shop.html">靠垫</a>
+        <div class="clear"></div>
+    </div>
+    <div class="tab_body">
+    	<a href="shop.html" class="a_1">窗帘4</a>
+        <a href="shop.html">地毯</a>
+        <a href="shop.html">枕套</a>
+        <a href="shop.html">床罩</a>
+        <a href="shop.html">靠垫</a>
+        <div class="clear"></div>
+    </div>
+    <div class="tab_body">
+    	<a href="shop.html" class="a_1">窗帘5</a>
+        <a href="shop.html">地毯</a>
+        <a href="shop.html">枕套</a>
+        <a href="shop.html">床罩</a>
+        <a href="shop.html">靠垫</a>
+        <div class="clear"></div>
+    </div>
+    <div class="tab_body">
+    	<a href="shop.html" class="a_1">窗帘6</a>
+        <a href="shop.html">地毯</a>
+        <a href="shop.html">枕套</a>
+        <a href="shop.html">床罩</a>
+        <a href="shop.html">靠垫</a>
+        <div class="clear"></div>
+    </div>
+    <div class="tab_body">
+    	<a href="shop.html" class="a_1">窗帘7</a>
+        <a href="shop.html">地毯</a>
+        <a href="shop.html">枕套</a>
+        <a href="shop.html">床罩</a>
+        <a href="shop.html">靠垫</a>
+        <div class="clear"></div>
+    </div>
+</div>
+<!--热门分类结束-->
+<!--热门商品 开始-->
+<div class="m_rmsp">
+    <div class="m_center m_title m_rmsp_title">
+        <div class="m_left">
+            <span class="ch">热门商品</span>
+            <span class="en">Hot commodities</span>
+        </div>
+        <div class="m_right">
+            <a>布艺类</a><span>&gt;</span><span>窗帘</span>
+        </div>
+    </div>
+    <ul class="m_center" id="m_rmsp">
+    	<li>
+        	<a href="proxq.html">
+            	<div class="m_left m_1">
+                	<img src="images/m_144.jpg" />
+                </div>
+                <div class="m_right m_2">
+                	<div class="img"><img src="images/m_145.jpg" /></div>
+                    <div class="tit">欧德罗高档窗帘白色提花定制窗纱</div>
+                    <div class="ms">
+                    	<p>款式：水波帘</p>
+                        <p>优点：具有遮蔽阳光调节温度的作用</p>
+                        <p>风格：简约、现代</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+        </li>
+        <li>
+        	<a href="proxq.html">
+            	<div class="m_left m_1">
+                	<img src="images/m_144.jpg" />
+                </div>
+                <div class="m_right m_2">
+                	<div class="img"><img src="images/m_145.jpg" /></div>
+                    <div class="tit">欧德罗高档窗帘白色提花定制窗纱</div>
+                    <div class="ms">
+                    	<p>款式：水波帘</p>
+                        <p>优点：具有遮蔽阳光调节温度的作用</p>
+                        <p>风格：简约、现代</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+        </li>
+        <li>
+        	<a href="proxq.html">
+            	<div class="m_left m_1">
+                	<img src="images/m_144.jpg" />
+                </div>
+                <div class="m_right m_2">
+                	<div class="img"><img src="images/m_145.jpg" /></div>
+                    <div class="tit">欧德罗高档窗帘白色提花定制窗纱</div>
+                    <div class="ms">
+                    	<p>款式：水波帘</p>
+                        <p>优点：具有遮蔽阳光调节温度的作用</p>
+                        <p>风格：简约、现代</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+        </li>
+        <li>
+        	<a href="proxq.html">
+            	<div class="m_left m_1">
+                	<img src="images/m_144.jpg" />
+                </div>
+                <div class="m_right m_2">
+                	<div class="img"><img src="images/m_145.jpg" /></div>
+                    <div class="tit">欧德罗高档窗帘白色提花定制窗纱</div>
+                    <div class="ms">
+                    	<p>款式：水波帘</p>
+                        <p>优点：具有遮蔽阳光调节温度的作用</p>
+                        <p>风格：简约、现代</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+        </li>
+        <li>
+        	<a href="proxq.html">
+            	<div class="m_left m_1">
+                	<img src="images/m_144.jpg" />
+                </div>
+                <div class="m_right m_2">
+                	<div class="img"><img src="images/m_145.jpg" /></div>
+                    <div class="tit">欧德罗高档窗帘白色提花定制窗纱</div>
+                    <div class="ms">
+                    	<p>款式：水波帘</p>
+                        <p>优点：具有遮蔽阳光调节温度的作用</p>
+                        <p>风格：简约、现代</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+        </li>
+    </ul>
+    <!--分页-->
+    <div id="page" class="page">
+        <a href="#" class="prev"></a>
+        <a href="#" class="page_hover">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <span>···</span>
+        <a href="#">30</a>
+        <a href="#" class="next"></a>
+    </div>
+</div>
+
+<!--热门商品 结束-->
+<!--footer-->
+<div class="footer" id="footer">
+	<div class="foot_body">
+        <ul>
+            <li>新手上路
+                <ul>
+                    <li><a href="newsxq.html">了解装修直通车</a></li>
+                  <li><a href="newsxq.html">免费注册</a></li>
+                  <li><a href="newsxq.html">如何获得装修保障</a></li>
+                  <li><a href="newsxq.html">如何维护装修权益</a></li>
+                 
+                </ul>
+            </li>
+            <li>商业合作
+                <ul>
+                  <li><a href="newsxq.html">装修公司加入</a></li>
+                  <li><a href="newsxq.html">设计师加入</a></li>
+                  <li><a href="newsxq.html">工长加入</a></li>
+                  <li><a href="newsxq.html">监理律师加入</a></li>
+                </ul>
+            </li>
+            <li>诚信保障
+                <ul>
+                  <li><a href="newsxq.html">加入实名验证计划</a></li>
+                  <li><a href="newsxq.html">加入诚信装修服务</a></li>
+                  <li><a href="newsxq.html">加入装修保障服务</a></li>
+                  <li><a href="newsxq.html">加入诚信联盟</a></li>
+                 
+                </ul>
+            </li>
+            <li>特色服务
+                <ul>
+                  <li><a href="newsxq.html">免费发布装修招标</a></li>
+                  <li><a href="newsxq.html">付费图纸审核</a></li>
+                  <li><a href="newsxq.html">付费合同审核</a></li>
+                  <li><a href="newsxq.html">付费工程预算</a></li>
+                  
+                </ul>
+            </li>
+            <li class="gzour">关注我们
+                <ul>
+                  <li class="li_1"><a href="newsxq.html">新浪微博</a></li>
+                  <li class="li_2"><a href="newsxq.html">腾讯微博</a></li>
+                  <li class="li_3"><a href="newsxq.html">QQ空间</a></li>
+                  <li class="li_4"><a href="newsxq.html">微信</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+	<div class="clear"></div>
+    <div class="bq_mess">
+    	<div>
+            <p><span>服务热线：4008766096</span><span>座机：57480708</span><span>企业邮箱：bjzxztc@163.com</span><span>京ICP备14054424号</span></p>
+            <p>法务顾问：北京嘉昊律师事务所 孙律师 黄律师 邢律师 张律师 闫律师 王律师<span>装修托管QQ：506403358</span></p>
+            <p>欢迎装修业主、设计师、装修公司、装修材料商、装修效果图、施工图、预算的爱好者加入！</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

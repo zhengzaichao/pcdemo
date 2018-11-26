@@ -1,0 +1,337 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="style/global.css" />
+<link rel="stylesheet" type="text/css" href="style/style.css" />
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/style.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+<title>装修创意</title>
+</head>
+<body>
+<!--没有登录 顶部 开始-->
+<div class="m_top" id="top">
+	<div class="m_center">
+    	<div class="m_left">您好，欢迎来到查小乖网站</div>
+        <div class="m_right m_left">
+        	<!--没有登录的时候，显示注册和登录-->
+        	<div class="m_login m_left" style="display:block;">
+            	<a href="register.html">注册</a>
+                <a href="login.html">登录</a>
+            </div>
+            <!--登录后显示下面的这个div-->
+            <div class="m_user m_left" style="display:none;">
+            	<a href="user.html" class="m_1 m_left">用户中心</a>
+                <span class="m_2 m_left">积分余额：200</span>
+                <a href="javascript:void(0)" class="m_3 m_left">退出</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--没有登录 顶部 结束-->
+<!--搜索和logo开始 1-->
+<div class="m_header m_center" id="header">
+	<a class="m_left m_logo" href="index.html"><img src="images/logo.png" /></a>
+    <div class="m_right m_tel">联系电话：<span>010-51260690</span></div>
+    <form class="m_search">
+    	<div class="m_select">装修公司</div>
+        <ul class="m_option">
+        	<li>装修公司1</li>
+            <li>装修公司2</li>
+        </ul>
+        <input class="m_1" type="text" placeholder="挑选您心仪的装修公司" />
+        <input class="m_2" type="submit" value="搜索" />
+    </form>
+</div>
+<!--搜索和logo结束-->
+<!--顶部导航开始 导航样式 1-->
+<div class="nav" id="nav">
+	<div class="m_center">
+    	<ul>
+        	<li class="m_on"><a href="index.html">首页<em></em></a></li>
+            <li class="m_hot"><a href="sjbj.html">设计与报价<em></em></a></li>
+            <li><a href="xgt.html">效果图<em></em></a></li>
+            <li><a href="zxgs.html">装修公司<em></em></a></li>
+            <li><a href="zyls.html" target="_blank">审理装修合同<em></em></a></li>
+            <li class="m_hot"><a href="zylsgd.html" target="_blank">装修专业律师<em></em></a></li>
+            <li><a href="shop.html">软装商城<em></em></a></li>
+        </ul>
+    </div>
+</div>
+<!--顶部导航结束-->
+<!--招标部分-->
+<div id="main" class="main">
+	<div class="smainbox">
+    	<div class="leftbox">
+        	<div class="s_banner">
+            	<div class="m_left m_2" id="s_banner">
+                    <div class="bd">
+                        <ul>
+                            <li><a><img src="images/s_banner_03.jpg" /></a></li>
+                            <li><a><img src="images/s_banner_03.jpg" /></a></li>
+                        </ul>
+                    </div>
+                    <a class="next"></a>
+                    <a class="prev"></a>
+					 <script type="text/javascript" src="js/jquery.SuperSlide.js"></script>
+                     <script type="text/javascript">
+                        jQuery("#s_banner").slide({
+                            effect : "left",
+                            titCell:".hd ul",//导航元素
+                            mainCell:".bd ul",//内容元素的父层对象
+                            delayTime : 300, //效果持续时间
+                            trigger: "mouseover",//触发方式 || mouseover：鼠标移过触发；|| click：鼠标点击触发；
+                            titOnClassName:"on",
+                            autoPage:true,
+                            autoPlay:true
+                        });
+                    </script>
+        		</div>
+			</div>
+            <!--装修知识-->
+			<div class="s_newstitle">
+           		<div class="m_left">
+            		<span class="ch">装修知识</span>
+       				<span class="en">knowledge</span>
+				</div>
+                <div class="m_right">
+                	<div class="s_zxqzh" id="s_zxqzh">
+                    	<ul>
+                        	<li class="active"><a href="news.html">装修前</a></li>
+                        	<li><a href="news.html">装修中</a></li>
+                        	<li><a href="news.html">装修后</a></li>
+                        
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+    		<!--装修知识新闻列表-->
+            <div class="s_zxxcs">
+            	<ul>
+                	<li><a href="newsxq.html">[装修小常识] 管家兔小编深度解析 </a><span>2015-09-15</span> </li>
+                	<li><a href="newsxq.html">[定设计/装修] 地中海风格的魅力— </a><span>2015-09-15</span></li>
+                	<li><a href="newsxq.html">[配置资金预算] 常用装修材料清单透 </a><span>2015-09-15</span> </li>
+                	<li><a href="newsxq.html">[配置资金预算] 装修预算多少才合理  </a><span>2015-09-15</span></li>
+                	<li><a href="newsxq.html">[定设计/装修] 新手也能从容应对  </a><span>2015-09-15</span> </li>
+                	<li><a href="newsxq.html">[设计知识] 玄关设计方案 玄关有哪些设计要素   </a><span>2015-09-15</span></li>
+                	<li><a href="newsxq.html">[设计知识] 室内装修玄关设计方案 新流行趋势   </a><span>2015-09-15</span> </li>
+                	<li><a href="newsxq.html">[家装攻略] 家装新技能：简单五步 让您的新房验收无忧 </a><span>2015-09-15</span></li>
+                	<li><a href="newsxq.html">[家装攻略] 装修指南，卫浴空间规划3大重点 </a><span>2015-09-15</span> </li>
+                	<li><a href="newsxq.html">[家装攻略] 装修图纸怎么看？一篇文章全搞定 </a><span>2015-09-15</span></li>
+                	<li><a href="newsxq.html">[家装攻略] 整体厨房装修，厨房装修布局有哪些 </a><span>2015-09-15</span> </li>
+   
+                </ul>
+
+            </div>
+            <div class="clear"></div>
+            <!--分页-->
+            <div id="page">
+                <a href="#" class="prev"></a>
+                <a href="#" class="page_hover">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <span>···</span>
+                <a href="#">30</a>
+                <a href="#" class="next"></a>
+            </div>
+		</div>
+        <!--右侧免费发布-->
+        <div class="rightbox">
+			<script type="text/javascript">
+					$(document).ready(function() {
+						$('#stab_conbox .stab_con').eq(0).show();
+						$('#stabs li').click(function() {
+							$('#stab_conbox .stab_con').eq($(this).index()).show().siblings().hide();
+							
+						})
+					});
+			</script> 
+                <div id="stabbox" class="stabbox">
+                    <ul class="stabs" id="stabs">
+                       <li class="on"><a>免费报价</a></li>
+                       <li><a>免费设计</a></li>
+                       <li><a>免费审理合同</a></li>
+                    </ul>
+                    <ul class="stab_conbox" id="stab_conbox">
+                        <li class="stab_con" >
+                        
+                             <div class="m_bodys">
+                                <form class="tab_1 tab_body_show">
+                                    <input type="text" class="m_1" placeholder="您的称呼" />
+                                    <input type="text" class="m_1" placeholder="您的电话" />
+                                    <div class="m_2">
+                                        <select class="se_1">
+                                            <option>北京市</option>
+                                            <option>河北省</option>
+                                            <option>河南省</option>
+                                            <option>湖北省</option>
+                                            <option>湖南省</option>
+                                        </select>
+                                        <select class="se_2">
+                                            <option>朝阳区</option>
+                                            <option>海淀区</option>
+                                            <option>东城区</option>
+                                            <option>西城区</option>
+                                        </select>
+                                    </div>
+                                    <input type="text" class="m_1" placeholder="面积" />
+                                    <input type="text" class="m_1" placeholder="预算" />
+                                    <select class="m_3">
+                                        <option>类型</option>
+                                        <option>类型1</option>
+                                        <option>类型2</option>
+                                    </select>
+                                    <textarea class="m_4" placeholder="备注"></textarea>
+                                    <input type="submit" class="m_btn_1" value="立即申请" />
+                                </form>
+                            
+                            </div>
+                        </li>
+                            
+                        <li class="stab_con">
+                            	<div class="m_bodys">
+                                <form class="tab_1 tab_body_show">
+                                    <input type="text" class="m_1" placeholder="您的称呼" />
+                                    <input type="text" class="m_1" placeholder="您的电话" />
+                                    <div class="m_2">
+                                        <select class="se_1">
+                                            <option>北京市</option>
+                                            <option>河北省</option>
+                                            <option>河南省</option>
+                                            <option>湖北省</option>
+                                            <option>湖南省</option>
+                                        </select>
+                                        <select class="se_2">
+                                            <option>朝阳区</option>
+                                            <option>海淀区</option>
+                                            <option>东城区</option>
+                                            <option>西城区</option>
+                                        </select>
+                                    </div>
+                                    <input type="text" class="m_1" placeholder="面积" />
+                                    <input type="text" class="m_1" placeholder="预算" />
+                                    <select class="m_3">
+                                        <option>类型</option>
+                                        <option>类型1</option>
+                                        <option>类型2</option>
+                                    </select>
+                                    <textarea class="m_4" placeholder="备注"></textarea>
+                                    <input type="submit" class="m_btn_1" value="立即申请" />
+                                </form>
+                            
+                            </div>
+                        </li>
+                    
+                        <li class="stab_con">
+                            	<div class="m_bodys">
+                                <form class="tab_1 tab_body_show">
+                                    <input type="text" class="m_1" placeholder="您的称呼" />
+                                    <input type="text" class="m_1" placeholder="您的电话" />
+                                    <div class="m_2">
+                                        <select class="se_1">
+                                            <option>北京市</option>
+                                            <option>河北省</option>
+                                            <option>河南省</option>
+                                            <option>湖北省</option>
+                                            <option>湖南省</option>
+                                        </select>
+                                        <select class="se_2">
+                                            <option>朝阳区</option>
+                                            <option>海淀区</option>
+                                            <option>东城区</option>
+                                            <option>西城区</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <textarea class="m_4" placeholder="备注"></textarea>
+                                    <input type="submit" class="m_btn_1" value="立即申请" />
+                                </form>
+                            
+                            </div>
+                        </li>
+                        
+                    </ul>
+    
+                </div>
+<!-- 最近浏览-->
+                <div class="s_zjll">
+                    <div class="s_zjlltitle">
+                    最近浏览<a>清除</a>
+                    </div>
+                    <div class="s_zjllbody">
+                        <ul>
+                            <li><a href="newsxq.html">[装修小常识] 管家兔小编深度解析管家兔小编深度解析管家兔小编深度解析管家兔小编深度解析</a></li>
+                            <li><a href="newsxq.html">[定设计/装修] 地中海风格的魅力—</a></li>
+                            <li><a href="newsxq.html">[配置资金预算] 常用装修材料清单透</a></li>
+                            <li><a href="newsxq.html">[配置资金预算] 装修预算多少才合理</a></li>
+                            <li><a href="newsxq.html">[定设计/装修] 新手也能从容应对</a></li>
+                            <li><a href="newsxq.html">[配置资金预算] 装修预算多少才合理</a></li>
+                        </ul>
+                    </div>
+                </div>
+		</div>
+    </div>
+</div>
+<!--footer-->
+<div class="footer" id="footer">
+	<div class="foot_body">
+        <ul>
+            <li>新手上路
+                <ul>
+                    <li><a href="newsxq.html">了解装修直通车</a></li>
+                  <li><a href="newsxq.html">免费注册</a></li>
+                  <li><a href="newsxq.html">如何获得装修保障</a></li>
+                  <li><a href="newsxq.html">如何维护装修权益</a></li>
+                 
+                </ul>
+            </li>
+            <li>商业合作
+                <ul>
+                  <li><a href="newsxq.html">装修公司加入</a></li>
+                  <li><a href="newsxq.html">设计师加入</a></li>
+                  <li><a href="newsxq.html">工长加入</a></li>
+                  <li><a href="newsxq.html">监理律师加入</a></li>
+                </ul>
+            </li>
+            <li>诚信保障
+                <ul>
+                  <li><a href="newsxq.html">加入实名验证计划</a></li>
+                  <li><a href="newsxq.html">加入诚信装修服务</a></li>
+                  <li><a href="newsxq.html">加入装修保障服务</a></li>
+                  <li><a href="newsxq.html">加入诚信联盟</a></li>
+                 
+                </ul>
+            </li>
+            <li>特色服务
+                <ul>
+                  <li><a href="newsxq.html">免费发布装修招标</a></li>
+                  <li><a href="newsxq.html">付费图纸审核</a></li>
+                  <li><a href="newsxq.html">付费合同审核</a></li>
+                  <li><a href="newsxq.html">付费工程预算</a></li>
+                  
+                </ul>
+            </li>
+            <li class="gzour">关注我们
+                <ul>
+                  <li class="li_1"><a href="newsxq.html">新浪微博</a></li>
+                  <li class="li_2"><a href="newsxq.html">腾讯微博</a></li>
+                  <li class="li_3"><a href="newsxq.html">QQ空间</a></li>
+                  <li class="li_4"><a href="newsxq.html">微信</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+	<div class="clear"></div>
+    <div class="bq_mess">
+    	<div>
+            <p><span>服务热线：4008766096</span><span>座机：57480708</span><span>企业邮箱：bjzxztc@163.com</span><span>京ICP备14054424号</span></p>
+            <p>法务顾问：北京嘉昊律师事务所 孙律师 黄律师 邢律师 张律师 闫律师 王律师<span>装修托管QQ：506403358</span></p>
+            <p>欢迎装修业主、设计师、装修公司、装修材料商、装修效果图、施工图、预算的爱好者加入！</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

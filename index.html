@@ -1,0 +1,1566 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="style/global.css" />
+<link rel="stylesheet" type="text/css" href="style/style.css" />
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/style.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+<title>装修创意</title>
+</head>
+<body>
+<!--没有登录 顶部 开始-->
+<div class="m_top" id="top">
+	<div class="m_center">
+    	<div class="m_left">您好，欢迎来到查小乖网站</div>
+        <div class="m_right m_left">
+        	<!--没有登录的时候，显示注册和登录-->
+        	<div class="m_login m_left" style="display:block;">
+            	<a href="register.html">注册</a>
+                <a href="login.html">登录</a>
+            </div>
+            <!--登录后显示下面的这个div-->
+            <div class="m_user m_left" style="display:none;">
+            	<a href="user.html" class="m_1 m_left">用户中心</a>
+                <span class="m_2 m_left">积分余额：200</span>
+                <a href="javascript:void(0)" class="m_3 m_left">退出</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--没有登录 顶部 结束-->
+<!--搜索和logo开始 1-->
+<div class="m_header m_center" id="header">
+	<a class="m_left m_logo" href="index.html"><img src="images/logo.png" /></a>
+    <div class="m_right m_tel">联系电话：<span>010-51260690</span></div>
+    <form class="m_search">
+    	<div class="m_select">装修公司</div>
+        <ul class="m_option">
+        	<li>装修公司1</li>
+            <li>装修公司2</li>
+        </ul>
+        <input class="m_1" type="text" placeholder="挑选您心仪的装修公司" />
+        <input class="m_2" type="submit" value="搜索" />
+    </form>
+</div>
+<!--搜索和logo结束-->
+<!--顶部导航开始 导航样式 1-->
+<div class="nav" id="nav">
+	<div class="m_center">
+    	<ul>
+        	<li class="m_on"><a href="index.html">首页<em></em></a></li>
+            <li class="m_hot"><a href="sjbj.html">设计与报价<em></em></a></li>
+            <li><a href="xgt.html">效果图<em></em></a></li>
+            <li><a href="zxgs.html">装修公司<em></em></a></li>
+            <li><a href="zyls.html" target="_blank">审理装修合同<em></em></a></li>
+            <li class="m_hot"><a href="zylsgd.html" target="_blank">装修专业律师<em></em></a></li>
+            <li><a href="shop.html">软装商城<em></em></a></li>
+        </ul>
+    </div>
+</div>
+<!--顶部导航结束-->
+<div class="m_banner" id="banner">
+	<ul>
+    	<li style="background-image:url(images/m_banner.jpg)"></li>
+        <li style="background-image:url(images/m_banner.jpg)"></li>
+        <li style="background-image:url(images/m_banner.jpg)"></li>
+    </ul>
+    <span class="m_pro"></span>
+    <span class="m_next"></span>
+</div>
+<div class="m_ms_form">
+	<div class="m_center">
+    	<ul class="m_left">
+            <li class="m_li_1">
+                <div class="m_img_1 m_img"><img src="images/m_5.png" /></div>
+                <div class="m_img_2 m_img"><img src="images/m_6.png" /></div>
+                <div class="m_1">服务商100%实名认证</div>
+                <div class="m_2">保证装修质量与服务</div>
+            </li>
+            <li class="m_li_2">
+                <div class="m_img_1 m_img"><img src="images/m_7.png" /></div>
+                <div class="m_img_2 m_img"><img src="images/m_8.png" /></div>
+                <div class="m_1">多种保障措施维护您的权益</div>
+                <div class="m_2">装前装后高枕无忧</div>
+            </li>
+            <li class="m_li_3">
+                <div class="m_img_1 m_img"><img src="images/m_9.png" /></div>
+                <div class="m_img_2 m_img"><img src="images/m_10.png" /></div>
+                <div class="m_1">平台全程跟进装修进度</div>
+                <div class="m_2">装修过程尽在掌握</div>
+            </li>
+            <li class="m_li_4">
+                <div class="m_img_1 m_img"><img src="images/m_11.png" /></div>
+                <div class="m_img_2 m_img"><img src="images/m_12.png" /></div>
+                <div class="m_1">装修纠纷快速介入</div>
+                <div class="m_2">客服调解快速满意</div>
+            </li>
+        </ul>
+        <div class="m_right">
+            <div class="m_tab">
+                <span class="m_on">免费报价</span>
+                <span>免费设计</span>
+                <span>免费审理合同</span>
+            </div>
+            <div class="m_bodys">
+                <form class="tab_1 tab_body_show">
+                    <input type="text" class="m_1" placeholder="您的称呼" />
+                    <input type="text" class="m_1" placeholder="您的电话" />
+                    <div class="m_2">
+                        <select class="se_1">
+                            <option>北京市</option>
+                            <option>河北省</option>
+                            <option>河南省</option>
+                            <option>湖北省</option>
+                            <option>湖南省</option>
+                        </select>
+                        <select class="se_2">
+                            <option>朝阳区</option>
+                            <option>海淀区</option>
+                            <option>东城区</option>
+                            <option>西城区</option>
+                        </select>
+                    </div>
+                    <input type="text" class="m_1" placeholder="面积" />
+                    <input type="text" class="m_1" placeholder="预算" />
+                    <select class="m_3">
+                        <option>类型</option>
+                        <option>类型1</option>
+                        <option>类型2</option>
+                    </select>
+                    <textarea class="m_4" placeholder="备注"></textarea>
+                    <input type="submit" class="m_btn_1" value="立即申请" />
+                </form>
+                <form class="tab_1">
+                    <input type="text" class="m_1" placeholder="您的称呼" />
+                    <input type="text" class="m_1" placeholder="您的电话" />
+                    <div class="m_2">
+                        <select class="se_1">
+                            <option>北京市</option>
+                            <option>河北省</option>
+                            <option>河南省</option>
+                            <option>湖北省</option>
+                            <option>湖南省</option>
+                        </select>
+                        <select class="se_2">
+                            <option>朝阳区</option>
+                            <option>海淀区</option>
+                            <option>东城区</option>
+                            <option>西城区</option>
+                        </select>
+                    </div>
+                    <input type="text" class="m_1" placeholder="面积" />
+                    <input type="text" class="m_1" placeholder="预算" />
+                    <select class="m_3">
+                        <option>类型</option>
+                        <option>类型1</option>
+                        <option>类型2</option>
+                    </select>
+                    <textarea class="m_4" placeholder="备注"></textarea>
+                    <input type="submit" class="m_btn_1" value="立即申请" />
+                </form>
+                <form class="tab_1">
+                    <input type="text" class="m_1" placeholder="您的称呼" />
+                    <input type="text" class="m_1" placeholder="您的电话" />
+                    <div class="m_2">
+                        <select class="se_1">
+                            <option>北京市</option>
+                            <option>河北省</option>
+                            <option>河南省</option>
+                            <option>湖北省</option>
+                            <option>湖南省</option>
+                        </select>
+                        <select class="se_2">
+                            <option>朝阳区</option>
+                            <option>海淀区</option>
+                            <option>东城区</option>
+                            <option>西城区</option>
+                        </select>
+                    </div>
+                    <textarea class="m_4" placeholder="备注"></textarea>
+                    <input type="submit" class="m_btn_1" value="免费发布" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="m_center m_title">
+	<div class="m_left">
+    	<span class="ch">招标动态</span>
+        <span class="en">Dynamic Bidding</span>
+    </div>
+    <a class="m_right more" href="bid.html">更多&nbsp;<span>&gt;&gt;</span></a>
+</div>
+<div class="m_center m_zbdt" id="m_gd_out">
+	<div class="bd">
+        <ul>
+            <li>
+                <span>李女士</span>
+                <span>海淀区</span>
+                <span>二居室</span>
+                <span>4万</span>
+                <span>63平</span>
+                <span>2015-07-09</span>
+                <a>抢标</a>
+            </li>
+            <li>
+                <span>李女士</span>
+                <span>海淀区</span>
+                <span>二居室</span>
+                <span>4万</span>
+                <span>63平</span>
+                <span>2015-07-09</span>
+                <a>抢标</a>
+            </li>
+            <li>
+                <span>李女士</span>
+                <span>海淀区</span>
+                <span>二居室</span>
+                <span>4万</span>
+                <span>63平</span>
+                <span>2015-07-09</span>
+                <a>抢标</a>
+            </li>
+            <li>
+                <span>李女士</span>
+                <span>海淀区</span>
+                <span>二居室</span>
+                <span>4万</span>
+                <span>63平</span>
+                <span>2015-07-09</span>
+                <a>抢标</a>
+            </li>
+            <li>
+                <span>李女士</span>
+                <span>海淀区</span>
+                <span>二居室</span>
+                <span>4万</span>
+                <span>63平</span>
+                <span>2015-07-09</span>
+                <a>抢标</a>
+            </li>
+            <li>
+                <span>李女士</span>
+                <span>海淀区</span>
+                <span>二居室</span>
+                <span>4万</span>
+                <span>63平</span>
+                <span>2015-07-09</span>
+                <a>抢标</a>
+            </li>
+            <li>
+                <span>李女士</span>
+                <span>海淀区</span>
+                <span>二居室</span>
+                <span>4万</span>
+                <span>63平</span>
+                <span>2015-07-09</span>
+                <a>抢标</a>
+            </li>
+            <li>
+                <span>李女士</span>
+                <span>海淀区</span>
+                <span>二居室</span>
+                <span>4万</span>
+                <span>63平</span>
+                <span>2015-07-09</span>
+                <a>抢标</a>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="js/jquery.SuperSlide.js"></script>
+    <script type="text/javascript">
+        jQuery("#m_gd_out").slide({
+			effect : "topMarquee",
+            mainCell:".bd ul",//内容元素的父层对象
+            trigger: "mouseover",//触发方式 || mouseover：鼠标移过触发；|| click：鼠标点击触发；
+            titOnClassName:"on",
+			interTime : 25,//数字越大速度越慢
+			vis:8,
+            autoPage:true,
+            autoPlay:true
+        });
+    </script>
+</div>
+<div class="m_center m_title">
+	<div class="m_left">
+    	<span class="ch">装修流程</span>
+        <span class="en">Renovation process</span>
+    </div>
+</div>
+<ul class="m_center m_zxlc">
+	<li>
+    	<a>
+        	<div class="img_1 m_img"><img src="images/m_17.png" /></div>
+            <div class="img_2 m_img"><img src="images/m_18.png" /></div>
+            <div class="text">收房量房</div>
+        </a>
+    </li>
+    <li>
+    	<a>
+        	<div class="img_1 m_img"><img src="images/m_19.png" /></div>
+            <div class="img_2 m_img"><img src="images/m_20.png" /></div>
+            <div class="text">前期准备</div>
+        </a>
+    </li>
+    <li>
+    	<a>
+        	<div class="img_1 m_img"><img src="images/m_21.png" /></div>
+            <div class="img_2 m_img"><img src="images/m_22.png" /></div>
+            <div class="text">选装修公司</div>
+        </a>
+    </li>
+    <li>
+    	<a>
+        	<div class="img_1 m_img"><img src="images/m_23.png" /></div>
+            <div class="img_2 m_img"><img src="images/m_24.png" /></div>
+            <div class="text">设计阶段</div>
+        </a>
+    </li>
+    <li>
+    	<a>
+        	<div class="img_1 m_img"><img src="images/m_25.png" /></div>
+            <div class="img_2 m_img"><img src="images/m_26.png" /></div>
+            <div class="text">材料选购</div>
+        </a>
+    </li>
+    <li>
+    	<a>
+        	<div class="img_1 m_img"><img src="images/m_27.png" /></div>
+            <div class="img_2 m_img"><img src="images/m_28.png" /></div>
+            <div class="text">施工阶段</div>
+        </a>
+    </li>
+    <li>
+    	<a>
+        	<div class="img_1 m_img"><img src="images/m_29.png" /></div>
+            <div class="img_2 m_img"><img src="images/m_30.png" /></div>
+            <div class="text">竣工验收</div>
+        </a>
+    </li>
+    <li>
+    	<a>
+        	<div class="img_1 m_img"><img src="images/m_31.png" /></div>
+            <div class="img_2 m_img"><img src="images/m_32.png" /></div>
+            <div class="text">软装配饰</div>
+        </a>
+    </li>
+    <li>
+    	<a>
+        	<div class="img_1 m_img"><img src="images/m_33.png" /></div>
+            <div class="img_2 m_img"><img src="images/m_34.png" /></div>
+            <div class="text">装修保障</div>
+        </a>
+    </li>
+</ul>
+<div class="m_xgt" style="background-image:url(images/m_43.jpg)">
+	<div class="m_center">
+        <div class="tit_1">
+            <div class="ch">装修效果图</div>
+            <div class="en">Decorate rendering</div>
+        </div>
+        <div class="tab">
+            <span class="m_on">工装</span>
+            <span>家装</span>
+        </div>
+        <div class="clear"></div>
+        <div class="tab_1 tab_show">
+            <a class="li_1" href="xgt.html">
+                <div class="img"><img src="images/m_35.jpg" /></div>
+                <div class="text">办公室装修1</div>
+            </a>
+            <a class="li_2" href="xgt.html">
+                <div class="img"><img src="images/m_36.jpg" /></div>
+                <div class="text">会所装修</div>
+            </a>
+            <a class="li_3" href="xgt.html">
+                <div class="img"><img src="images/m_37.jpg" /></div>
+                <div class="text">卧室装修</div>
+            </a>
+            <a class="li_4" href="xgt.html">
+                <div class="img"><img src="images/m_38.jpg" /></div>
+                <div class="text">医院</div>
+            </a>
+            <a class="li_5" href="xgt.html">
+                <div class="img"><img src="images/m_39.jpg" /></div>
+                <div class="text">客厅</div>
+            </a>
+            <a class="li_6" href="xgt.html">
+                <div class="img"><img src="images/m_40.jpg" /></div>
+                <div class="text">卫生间</div>
+            </a>
+            <a class="li_7" href="xgt.html">
+                <div class="img"><img src="images/m_41.jpg" /></div>
+                <div class="text">餐饮</div>
+            </a>
+            <a class="li_8" href="xgt.html">
+                <div class="img"><img src="images/m_42.jpg" /></div>
+                <div class="text">厨房</div>
+            </a>
+        </div>
+        <div class="tab_1">
+            <a class="li_1" href="xgt.html">
+                <div class="img"><img src="images/m_35.jpg" /></div>
+                <div class="text">办公室装修2</div>
+            </a>
+            <a class="li_2" href="xgt.html">
+                <div class="img"><img src="images/m_36.jpg" /></div>
+                <div class="text">会所装修</div>
+            </a>
+            <a class="li_3" href="xgt.html">
+                <div class="img"><img src="images/m_37.jpg" /></div>
+                <div class="text">卧室装修</div>
+            </a>
+            <a class="li_4" href="xgt.html">
+                <div class="img"><img src="images/m_38.jpg" /></div>
+                <div class="text">医院</div>
+            </a>
+            <a class="li_5" href="xgt.html">
+                <div class="img"><img src="images/m_39.jpg" /></div>
+                <div class="text">客厅</div>
+            </a>
+            <a class="li_6" href="xgt.html">
+                <div class="img"><img src="images/m_40.jpg" /></div>
+                <div class="text">卫生间</div>
+            </a>
+            <a class="li_7" href="xgt.html">
+                <div class="img"><img src="images/m_41.jpg" /></div>
+                <div class="text">餐饮</div>
+            </a>
+            <a class="li_8" href="xgt.html">
+                <div class="img"><img src="images/m_42.jpg" /></div>
+                <div class="text">厨房</div>
+            </a>
+        </div>
+        
+    </div>
+</div>
+<!--装修公司开始-->
+<div class="m_center m_title">
+	<div class="m_left">
+    	<span class="ch">装修公司</span>
+        <span class="en">Partners</span>
+    </div>
+    <a class="m_right more" href="zxgs.html">更多&nbsp;<span>&gt;&gt;</span></a>
+</div>
+<div class="m_zxgs m_center" id="m_zxgs">
+	<div class="bd">
+    	<ul>
+        	<li>
+            	<div class="m_1">
+                	<img src="images/m_46.jpg" onload="AutoResizeImage(123,60,this);" />
+                	<div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介1</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_47.jpg" onload="AutoResizeImage(123,60,this);" />
+                	<div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介2</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_48.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介3</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_49.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介4</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_50.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介5</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_51.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介6</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_52.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介7</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_53.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介8</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+            	<div class="m_1">
+                	<img src="images/m_54.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介9</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_55.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介10</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_56.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介11</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_57.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介12</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_58.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介13</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_59.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介14</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_60.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介15</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_61.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介16</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+            	<div class="m_1">
+                	<img src="images/m_46.jpg" onload="AutoResizeImage(123,60,this);" />
+                	<div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介17</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_47.jpg" onload="AutoResizeImage(123,60,this);" />
+                	<div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介18</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_48.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介19</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_49.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介20</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_50.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介21</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_51.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介22</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_52.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介23</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+                <div class="m_1">
+                	<img src="images/m_53.jpg" onload="AutoResizeImage(123,60,this);" />
+                    <div class="box">
+                    	<div class="m_left m_1">
+                            <div class="img"><img src="images/m_93.jpg" onload="AutoResizeImage(460,200,this);" /></div>
+                            <div class="tit">创意屋公司简介24</div>
+                            <div class="ms">这次橱柜安装真真是操碎了心。在这里给各位兔兔一点小建议：千万不要全盘信任橱柜公司的专业精神，每个设计师手里都有很多的客户，不可能面面俱到，所以对于开关面板的位置在复尺的时候一定要让设计师标注清楚也就不会像我家一样要么放弃开关面板，要么裁掉橱柜了......</div>
+                        </div>
+    					<div class="m_right m_2">
+                            <div class="now"><span class="ch">近期工程</span><span class="en">Dynamic Bidding</span></div>
+                            <dl class="now_a">
+                                <dd><a href="newsxq.html" target="_blank">2014年最流行的装修风格有哪些？..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2015年板材十大品牌是哪些？免漆板和生态..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年室内设计与装修的流行趋势是什么..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">我想装修 深圳2012年流行房子装修风格是哪一种呢</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012常见的别墅装修风格有哪几种？最流行..</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">最新的2014装修风格流行的上海别墅装饰设计中哪家的好</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2014年流行什么装修风格啊?</a></dd>
+                                <dd><a href="newsxq.html" target="_blank">2012年上海流行哪种风格房子装修..</a></dd>
+                            </dl>
+                            <a class="ask" href="zxgsny.html" target="_blank">点击咨询</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="close"></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <a class="pro"></a>
+    <a class="next"></a>
+    <script type="text/javascript">
+        jQuery("#m_zxgs").slide({
+			effect : "top", 
+            titCell:".hd ul",//导航元素
+            mainCell:".bd ul",//内容元素的父层对象
+            delayTime : 300, //效果持续时间
+            trigger: "mouseover",//触发方式 || mouseover：鼠标移过触发；|| click：鼠标点击触发；
+            titOnClassName:"on",
+			vis:2,
+            autoPage:true,
+            autoPlay:true,
+			prevCell:".pro",//前一个按钮元素。
+			nextCell:".next"//后一个按钮元素。
+        });
+    </script>
+</div>
+<div class="m_tan_bg"></div>
+<div class="m_tan_box" id="tan_box_1"></div>
+<!--装修公司结束-->
+<!--装修攻略开始  待确定-->
+<div class="m_center m_title">
+	<div class="m_left">
+    	<span class="ch">装修攻略</span>
+        <span class="en">Decoration strategy</span>
+    </div>
+    <a class="m_right more" href="#">更多&nbsp;<span>&gt;&gt;</span></a>
+</div>
+<div class="m_zxgl m_center">
+	<a href="#" class="a_1">
+    	<div class="img"><img src="images/m_64.jpg" /></div>
+        <div class="text">
+        	<div class="te">
+            	<div class="ch">办公室装修</div>
+            	<div class="en">Office decoration</div>
+            </div>
+        </div>
+    </a>
+    <a href="#" class="a_2">
+    	<div class="img"><img src="images/m_65.jpg" /></div>
+        <div class="text">
+        	<div class="te">
+            	<div class="ch">办公室装修</div>
+            	<div class="en">Office decoration</div>
+            </div>
+        </div>
+    </a>
+    <a href="#" class="a_3">
+    	<div class="img"><img src="images/m_66.jpg" /></div>
+        <div class="text">
+        	<div class="te">
+            	<div class="ch">办公室装修</div>
+            	<div class="en">Office decoration</div>
+            </div>
+        </div>
+    </a>
+    <a href="#" class="a_4">
+    	<div class="img"><img src="images/m_67.jpg" /></div>
+        <div class="text">
+        	<div class="te">
+            	<div class="ch">办公室装修</div>
+            	<div class="en">Office decoration</div>
+            </div>
+        </div>
+    </a>
+    <a href="#" class="a_5">
+    	<div class="img"><img src="images/m_68.jpg" /></div>
+        <div class="text">
+        	<div class="te">
+            	<div class="ch">办公室装修</div>
+            	<div class="en">Office decoration</div>
+            </div>
+        </div>
+    </a>
+    <a href="#" class="a_6">
+    	<div class="img"><img src="images/m_69.jpg" /></div>
+        <div class="text">
+        	<div class="te">
+            	<div class="ch">办公室装修</div>
+            	<div class="en">Office decoration</div>
+            </div>
+        </div>
+    </a>
+</div>
+<!--装修攻略结束-->
+<!--装修知识开始-->
+<div class="m_center m_title">
+	<div class="m_left">
+    	<span class="ch">装修知识</span>
+        <span class="en">Decoration knowledge</span>
+    </div>
+    <a class="m_right more" href="news.html">更多&nbsp;<span>&gt;&gt;</span></a>
+</div>
+<div class="m_center m_zxzs">
+	<a class="m_left m_1" href="newsxq.html">
+    	<div class="img"><img src="images/m_72.jpg" /></div>
+        <div class="text">很多人认为与艺术无关</div>
+    </a>
+    <div class="m_right m_2">
+    	<div class="ul_1 m_left">
+            <a href="newsxq.html">
+                <div class="tit">设计师管然：格局和生活品味同样重要</div>
+                <div class="ms">对于私宅，很多人认为与艺术无关。其实不然，生活的点滴都是一道活的点滴都是一道。对于私宅，很多人认为与艺术无关。其实不然，生活的点滴都是一道活的点滴都是一道</div>
+            </a>
+            <a href="newsxq.html">
+                <div class="tit">设计师管然：格局和生活品味同样重要</div>
+                <div class="ms">对于私宅，很多人认为与艺术无关。其实不然，生活的点滴都是一道活的点滴都是一道。对于私宅，很多人认为与艺术无关。其实不然，生活的点滴都是一道活的点滴都是一道</div>
+            </a>
+            <a href="newsxq.html">
+                <div class="tit">设计师管然：格局和生活品味同样重要</div>
+                <div class="ms">对于私宅，很多人认为与艺术无关。其实不然，生活的点滴都是一道活的点滴都是一道。对于私宅，很多人认为与艺术无关。其实不然，生活的点滴都是一道活的点滴都是一道</div>
+            </a>
+            <a href="newsxq.html">
+                <div class="tit">设计师管然：格局和生活品味同样重要</div>
+                <div class="ms">对于私宅，很多人认为与艺术无关。其实不然，生活的点滴都是一道活的点滴都是一道。对于私宅，很多人认为与艺术无关。其实不然，生活的点滴都是一道活的点滴都是一道</div>
+            </a>
+        </div>
+        <div class="ul_2 m_right">
+        	<a href="newsxq.html">北京小户型装修公司何为优北京小户型装修公司何为优</a>
+            <a href="newsxq.html">北京小户型装修公司何为优</a>
+            <a href="newsxq.html">北京小户型装修公司何为优</a>
+            <a href="newsxq.html">北京小户型装修公司何为优</a>
+            <a href="newsxq.html">北京小户型装修公司何为优</a>
+            <a href="newsxq.html">北京小户型装修公司何为优</a>
+            <a href="newsxq.html">北京小户型装修公司何为优</a>
+            <a href="newsxq.html">北京小户型装修公司何为优</a>
+        </div>
+    </div>
+</div>
+<!--装修知识结束-->
+<!--法律顾问开始-->
+<div class="m_flgw">
+	<div class="bg"></div>
+	<div class="m_center">
+    	<div class="m_left m_1" id="m_flgw">
+        	<div class="m_title">
+                <div class="m_left">
+                    <span class="ch">法律顾问</span>
+                    <span class="en">Decoration knowledge</span>
+                </div>
+                <a class="m_right more" href="zylsgd.html" target="_blank">更多&nbsp;<span>&gt;&gt;</span></a>
+            </div>
+        	<div class="bd">
+            	<ul>
+                	<li>
+                    	<a href="lsxq.html">
+                        	<div class="img"><img src="images/m_74.jpg" /></div>
+                            <div class="text">张律师</div>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="lsxq.html">
+                        	<div class="img"><img src="images/m_75.jpg" /></div>
+                            <div class="text">张律师</div>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="lsxq.html">
+                        	<div class="img"><img src="images/m_76.jpg" /></div>
+                            <div class="text">张律师</div>
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="lsxq.html">
+                        	<div class="img"><img src="images/m_74.jpg" /></div>
+                            <div class="text">张律师</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a class="next"></a>
+            <a class="prve"></a>
+            <script type="text/javascript">
+				jQuery("#m_flgw").slide({
+					effect : "left",
+					titCell:".hd ul",//导航元素
+					mainCell:".bd ul",//内容元素的父层对象
+					delayTime : 100, //效果持续时间
+					trigger: "mouseover",//触发方式 || mouseover：鼠标移过触发；|| click：鼠标点击触发；
+					titOnClassName:"on",
+					autoPage:true,
+					vis:3,
+					autoPlay:true,
+					prevCell:".prve",//前一个按钮元素。
+					nextCell:".next"//后一个按钮元素。
+				});
+			</script>
+        </div>
+        <div class="m_right m_2">
+        	<div class="tit">
+            	<div class="ch">免费审理装修合同</div>
+                <div class="en">Decoration contract</div>
+            </div>
+            <form>
+                <input type="text" class="in_1" placeholder="您的称呼" />
+                <input type="text" class="in_1" placeholder="您的电话" />
+                <div class="in_2">
+                    <select class="se_1">
+                        <option>北京市</option>
+                        <option>河北省</option>
+                        <option>河南省</option>
+                        <option>湖北省</option>
+                        <option>湖南省</option>
+                    </select>
+                    <select class="se_2">
+                        <option>朝阳区</option>
+                        <option>海淀区</option>
+                        <option>东城区</option>
+                        <option>西城区</option>
+                    </select>
+                </div>
+                <textarea class="in_3" placeholder="备注"></textarea>
+                <input type="submit" class="m_btn_1" value="免费发布" />
+            </form>
+        </div>
+    </div>
+</div>
+<!--法律顾问结束-->
+<!--法律常识开始-->
+<div class="m_center m_title">
+	<div class="m_left">
+    	<span class="ch">法律常识</span>
+        <span class="en">Legal knowledge</span>
+    </div>
+    <a class="m_right more" href="news.html">更多&nbsp;<span>&gt;&gt;</span></a>
+</div>
+<div class="m_flcs m_center">
+	<a class="m_left m_1" href="newsxq.html">
+    	<img src="images/m_80.jpg" />
+        <div class="text">很多人认为与艺术无关</div>
+    </a>
+    <div class="m_2 m_left">
+    	<div class="li_1 tuijian">
+        	<div class="tit">20位业主大吐槽 100平米楼房装修经验</div>
+            <div class="newslist">
+            	<a href="newsxq.html">温暖改造 我的单身森系老房子温暖改造 我的单身森系老房子</a>
+                <a href="newsxq.html">温暖改造 我的单身森系老房子我的单身森系老房子</a>
+                <a href="newsxq.html">温暖改造 我的单身森系老房子</a>
+                <a href="newsxq.html">温暖改造 我的单身森系老房子</a>
+            </div>
+        </div>
+        <div class="li_1">
+        	<div class="tit">20位业主大吐槽 100平米楼房装修经验</div>
+            <div class="newslist">
+            	<a href="newsxq.html">温暖改造 我的单身森系老房子温暖改造 我的单身森系老房子</a>
+                <a href="newsxq.html">温暖改造 我的单身森系老房子</a>
+                <a href="newsxq.html">温暖改造 我的单身森系老房子</a>
+                <a href="newsxq.html">温暖改造 我的单身森系老房子</a>
+            </div>
+        </div>
+        <div class="li_1">
+        	<div class="tit">20位业主大吐槽 100平米楼房装修经验</div>
+            <div class="newslist">
+            	<a href="newsxq.html">温暖改造 我的单身森系老房子温暖改造 我的单身森系老房子</a>
+                <a href="newsxq.html">温暖改造 我的单身森系老房子</a>
+                <a href="newsxq.html">温暖改造 我的单身森系老房子</a>
+                <a href="newsxq.html">温暖改造 我的单身森系老房子</a>
+            </div>
+        </div>
+    </div>
+    <div class="m_3 m_right">
+    	<img src="images/m_82.jpg" class="img_1" />
+        <a href="newsxq.html">北京小户型装修公司何为优</a>
+        <a href="newsxq.html">北京小户型装修公司何为优</a>
+        <a href="newsxq.html">北京小户型装修公司何为优</a>
+        <a href="newsxq.html">北京小户型装修公司何为优</a>
+        <a href="newsxq.html">北京小户型装修公司何为优</a>
+        <a href="newsxq.html">北京小户型装修公司何为优</a>
+    </div>
+</div>
+<!--法律常识结束-->
+<!--软件商城开始-->
+<div class="m_rjsc">
+	<div class="m_center">
+    	<div class="m_left m_1">
+        	<div class="tit">
+            	<div class="ch">软装商城</div>
+                <div class="en">Mall</div>
+            </div>
+            <div class="alist">
+            	<a href="shop.html">纸品清仓</a>
+                <a href="shop.html">洗护口腔</a>
+                <a href="shop.html">清洁达人</a>
+                <a href="shop.html">均价家居</a>
+                <a href="shop.html">母婴清仓</a>
+                <a href="shop.html">保健养生</a>
+                <a href="shop.html">进口零食</a>
+                <a href="shop.html">进口泡面</a>
+                <a href="shop.html">方便速食</a>
+                <a href="shop.html">酱菜热卖</a>
+                <a href="shop.html">饮料啤酒</a>
+                <a href="shop.html">生鲜水果</a>
+            </div>
+            <a class="more" href="shop.html">更多&nbsp;<span>&gt;&gt;</span></a>
+        </div>
+        <div class="m_left m_2" id="m_rjsc">
+        	<div class="bd">
+            	<ul>
+                	<li><a href="proxq.html"><img src="images/m_90.jpg" /></a></li>
+                    <li><a href="proxq.html"><img src="images/m_90.jpg" /></a></li>
+                </ul>
+            </div>
+            <a class="next"></a>
+            <a class="prev"></a>
+            <script type="text/javascript">
+				jQuery("#m_rjsc").slide({
+					effect : "left",
+					titCell:".hd ul",//导航元素
+					mainCell:".bd ul",//内容元素的父层对象
+					delayTime : 300, //效果持续时间
+					trigger: "mouseover",//触发方式 || mouseover：鼠标移过触发；|| click：鼠标点击触发；
+					titOnClassName:"on",
+					autoPage:true,
+					autoPlay:true
+				});
+			</script>
+        </div>
+        <div class="m_right m_3">
+        	<ul>
+            	<li class="hot">
+                	<a href="proxq.html">
+                    	<div class="img"><img src="images/m_83.jpg" onload="AutoResizeImage(178,141,this);" /></div>
+                        <div class="name">梦百合 慢回弹相伴U型圈</div>
+                        <div class="price">￥<span>99.00</span></div>
+                        <div class="hotcon"></div>
+                    </a>
+                </li>
+                <li class="hot">
+                	<a href="proxq.html">
+                    	<div class="img"><img src="images/m_84.jpg" onload="AutoResizeImage(178,141,this);" /></div>
+                        <div class="name">梦百合 慢回弹相伴U型圈</div>
+                        <div class="price">￥<span>99.00</span></div>
+                        <div class="hotcon"></div>
+                    </a>
+                </li>
+                <li class="hot">
+                	<a href="proxq.html">
+                    	<div class="img"><img src="images/m_85.jpg" onload="AutoResizeImage(178,141,this);" /></div>
+                        <div class="name">梦百合 慢回弹相伴U型圈</div>
+                        <div class="price">￥<span>99.00</span></div>
+                        <div class="hotcon"></div>
+                    </a>
+                </li>
+                <li>
+                	<a href="proxq.html">
+                    	<div class="img"><img src="images/m_86.jpg" onload="AutoResizeImage(178,141,this);" /></div>
+                        <div class="name">梦百合 慢回弹相伴U型圈</div>
+                        <div class="price">￥<span>99.00</span></div>
+                        <div class="hotcon"></div>
+                    </a>
+                </li>
+                <li>
+                	<a href="proxq.html">
+                    	<div class="img"><img src="images/m_87.jpg" onload="AutoResizeImage(178,141,this);" /></div>
+                        <div class="name">梦百合 慢回弹相伴U型圈</div>
+                        <div class="price">￥<span>99.00</span></div>
+                        <div class="hotcon"></div>
+                    </a>
+                </li>
+                <li>
+                	<a href="proxq.html">
+                    	<div class="img"><img src="images/m_88.jpg" onload="AutoResizeImage(178,141,this);" /></div>
+                        <div class="name">梦百合 慢回弹相伴U型圈</div>
+                        <div class="price">￥<span>99.00</span></div>
+                        <div class="hotcon"></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--软件商城结束-->
+<!--热门话题开始-->
+<div class="m_center m_title">
+	<div class="m_left">
+    	<span class="ch">热门话题</span>
+        <span class="en">hot topic</span>
+    </div>
+    <a class="m_right more" href="news.html">更多&nbsp;<span>&gt;&gt;</span></a>
+</div>
+<div class="m_htgg m_center">
+	<ul class="m_left m_1">
+    	<li>
+        	<div class="tit">20位业主大吐槽 100平米楼房装修经验</div>
+            <div class="ms">装修时的材料价格大概不是每个户主都清楚的事情，而在装修时，超出预算也是一个很常见的问题。这就需要户主充分了解装修材料的价格，让价格透明化才能把预算做的更精确，更容易控制住......<a href="newsxq.html">[阅读全文]</a></div>
+        </li>
+        <li>
+        	<div class="tit">20位业主大吐槽 100平米楼房装修经验</div>
+            <div class="ms">装修时的材料价格大概不是每个户主都清楚的事情，而在装修时，超出预算也是一个很常见的问题。这就需要户主充分了解装修材料的价格，让价格透明化才能把预算做的更精确，更容易控制住......<a href="newsxq.html">[阅读全文]</a></div>
+        </li>
+        <li>
+        	<div class="tit">20位业主大吐槽 100平米楼房装修经验</div>
+            <div class="ms">装修时的材料价格大概不是每个户主都清楚的事情，而在装修时，超出预算也是一个很常见的问题。这就需要户主充分了解装修材料的价格，让价格透明化才能把预算做的更精确，更容易控制住......<a href="newsxq.html">[阅读全文]</a></div>
+        </li>
+    </ul>
+    <a class="m_right m_2" href="news.html"><img src="images/m_91.jpg" /></a>
+</div>
+<!--热门话题结束-->
+<!--网站公告开始-->
+<div class="m_center m_title">
+	<div class="m_left">
+    	<span class="ch">网站公告</span>
+        <span class="en">Site Notice</span>
+    </div>
+    <a class="m_right more" href="news.html">更多&nbsp;<span>&gt;&gt;</span></a>
+</div>
+<div class="m_htgg m_center">
+    <a class="m_left m_2" href="news.html"><img src="images/m_92.jpg" /></a>
+    <ul class="m_right m_1">
+    	<li>
+        	<div class="tit">20位业主大吐槽 100平米楼房装修经验</div>
+            <div class="ms">装修时的材料价格大概不是每个户主都清楚的事情，而在装修时，超出预算也是一个很常见的问题。这就需要户主充分了解装修材料的价格，让价格透明化才能把预算做的更精确，更容易控制住......<a href="newsxq.html">[阅读全文]</a></div>
+        </li>
+        <li>
+        	<div class="tit">20位业主大吐槽 100平米楼房装修经验</div>
+            <div class="ms">装修时的材料价格大概不是每个户主都清楚的事情，而在装修时，超出预算也是一个很常见的问题。这就需要户主充分了解装修材料的价格，让价格透明化才能把预算做的更精确，更容易控制住......<a href="newsxq.html">[阅读全文]</a></div>
+        </li>
+        <li>
+        	<div class="tit">20位业主大吐槽 100平米楼房装修经验</div>
+            <div class="ms">装修时的材料价格大概不是每个户主都清楚的事情，而在装修时，超出预算也是一个很常见的问题。这就需要户主充分了解装修材料的价格，让价格透明化才能把预算做的更精确，更容易控制住......<a href="newsxq.html">[阅读全文]</a></div>
+        </li>
+    </ul>
+</div>
+<!--网站公告结束-->
+<!--footer底部版权-->
+<div class="footer" id="footer">
+	<div class="foot_body">
+        <ul>
+            <li>新手上路
+                <ul>
+                    <li><a href="newsxq.html">了解装修直通车</a></li>
+                  <li><a href="newsxq.html">免费注册</a></li>
+                  <li><a href="newsxq.html">如何获得装修保障</a></li>
+                  <li><a href="newsxq.html">如何维护装修权益</a></li>
+                 
+                </ul>
+            </li>
+            <li>商业合作
+                <ul>
+                  <li><a href="newsxq.html">装修公司加入</a></li>
+                  <li><a href="newsxq.html">设计师加入</a></li>
+                  <li><a href="newsxq.html">工长加入</a></li>
+                  <li><a href="newsxq.html">监理律师加入</a></li>
+                </ul>
+            </li>
+            <li>诚信保障
+                <ul>
+                  <li><a href="newsxq.html">加入实名验证计划</a></li>
+                  <li><a href="newsxq.html">加入诚信装修服务</a></li>
+                  <li><a href="newsxq.html">加入装修保障服务</a></li>
+                  <li><a href="newsxq.html">加入诚信联盟</a></li>
+                 
+                </ul>
+            </li>
+            <li>特色服务
+                <ul>
+                  <li><a href="newsxq.html">免费发布装修招标</a></li>
+                  <li><a href="newsxq.html">付费图纸审核</a></li>
+                  <li><a href="newsxq.html">付费合同审核</a></li>
+                  <li><a href="newsxq.html">付费工程预算</a></li>
+                  
+                </ul>
+            </li>
+            <li class="gzour">关注我们
+                <ul>
+                  <li class="li_1"><a href="newsxq.html">新浪微博</a></li>
+                  <li class="li_2"><a href="newsxq.html">腾讯微博</a></li>
+                  <li class="li_3"><a href="newsxq.html">QQ空间</a></li>
+                  <li class="li_4"><a href="newsxq.html">微信</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+	<div class="clear"></div>
+    <div class="bq_mess">
+    	<div>
+            <p><span>服务热线：4008766096</span><span>座机：57480708</span><span>企业邮箱：bjzxztc@163.com</span><span>京ICP备14054424号</span></p>
+            <p>法务顾问：北京嘉昊律师事务所 孙律师 黄律师 邢律师 张律师 闫律师 王律师<span>装修托管QQ：506403358</span></p>
+            <p>欢迎装修业主、设计师、装修公司、装修材料商、装修效果图、施工图、预算的爱好者加入！</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
